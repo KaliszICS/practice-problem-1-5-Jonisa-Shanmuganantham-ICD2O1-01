@@ -26,7 +26,7 @@ def q4():
   number = input("Input a number: ")
   number = (float(number))
   number = (number * 12)
-  number = (string(number))
+  number = (str(number))
   print(number)
 
 def q5():
