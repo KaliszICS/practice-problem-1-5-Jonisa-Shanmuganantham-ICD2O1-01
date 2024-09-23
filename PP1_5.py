@@ -35,9 +35,6 @@ def q5():
   integer = (integer + 5)
   print(f"Your number + 5 is {integer}")
 
-#Comment this code out when running tests
-#Do not comment this out when running your program normally
-
 q1()
 q2()
 q3()
