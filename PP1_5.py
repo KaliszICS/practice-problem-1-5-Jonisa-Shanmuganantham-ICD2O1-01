@@ -11,7 +11,7 @@ def q1():
   print(integer)
 
 def q2():
-  number = input("Input a number: ")
+  number = input("Input a number: ") 
   number = (str(number) + "4")
   number = (float(number))
   number = (number + 2)
