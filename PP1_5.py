@@ -7,11 +7,12 @@
 def q1():
   integer = input("Input an integer: ")
   integer = (int(integer))
+  integer = integer + 3
   print(integer)
 
 def q2():
   number = input("Input a number: ")
-  number = (number + "4")
+  number = (str(number) + "4")
   number = (float(number))
   number = (number + 2)
   print(number)
@@ -26,7 +27,7 @@ def q4():
   number = input("Input a number: ")
   number = (float(number))
   number = (number * 12)
-  number = (str(number))
+  number = (int(number))
   print(number)
 
 def q5():
@@ -34,9 +35,10 @@ def q5():
   integer = (int(integer))
   integer = (integer + 5)
   print(f"Your number + 5 is {integer}")
-
+'''
 q1()
 q2()
 q3()
 q4()
 q5()
+'''
