@@ -20,6 +20,7 @@ def q3():
   radius = input("Input a radius: ")
   radius = (float(radius))
   area = (radius *  radius * 3.14)
+  print(area)
 
 def q4():
   number = input("Input a number: ")
